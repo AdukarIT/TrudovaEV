@@ -9,4 +9,4 @@
 ### 1) ссылка 1 https://jsfiddle.net/ktrudava/qa0ndsL4/19/
 ### 2) ссылка 2 https://jsfiddle.net/ktrudava/w9L0q7ok/20/
 
-<font size="+5">&#9786;</font>
+<font size="+20">&#9786;</font>
