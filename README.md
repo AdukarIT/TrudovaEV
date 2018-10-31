@@ -14,8 +14,8 @@
 # ДЗ к уроку 3
 
 ## Задание 1
-### ссылка https://jsfiddle.net/ktrudava/2dmb06oe/28/
-### ссылка https://jsfiddle.net/ktrudava/18yvhfqc/65/
+### ссылка 
+### ссылка 
 
 ## Задание 2
 ### ссылка 
