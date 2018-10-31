@@ -13,10 +13,9 @@
 
 # ДЗ к уроку 3
 
-## Задание 1
-### ссылка 
-### ссылка 
+## Задание 1 - Ремонт
+### ссылка https://github.com/AdukarIT/TrudovaEV/tree/master/HTML_1_Remont
 
-## Задание 2
-### ссылка 
-### ссылка 
+## Задание 2 - Оргтехника
+### ссылка https://github.com/AdukarIT/TrudovaEV/tree/master/HTML_2_Orgtehnika
+ 
