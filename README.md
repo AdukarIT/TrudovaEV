@@ -19,3 +19,4 @@
 ## Задание 2 - Оргтехника
 ### ссылка https://github.com/AdukarIT/TrudovaEV/tree/master/HTML_2_Orgtehnika
  
+ <h1>&#9786;</h1>
