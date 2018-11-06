@@ -1,9 +1,78 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
-	<title>Задание 1 - Социальная сеть</title>
+	<title>Задание 1 - Социальная сеть фотографий и видео</title>
+	<meta charset="UTF-8">
+  <style>
+  .body{
+    background-color:#e6f7ff;
+    font-family:arial;
+  }
+  .name{
+    font-size:60px;
+    color:#006699;
+  }
+  </style>
 </head>
-<body>
-	<img src="FotoStrana_logo.jpg" alt="FotoStrana_logo" width="80" height="80">
-	<h1>FotoStrana</h1>
+<body class="body">
+	<header>
+		<img src="images/FS_logo.jpg" alt="FotoStrana_logo" width="80" height="80">
+		<h1 class="name">FotoStrana</h1><hr>
+	</header>
+	
+	<div>
+		<fieldset style="width:30%">
+			<legend>Войти в FotoStrana:</legend>
+			<form name="Форма входа" action="feed.html" method="post">
+  				<p>
+   					<label>E-mail:<br>
+   					<input type="email" name="email" size="35" autofocus required>
+   					</label>
+   				</p>
+  				<p>
+    				<label>Пароль:<br>
+    				<input type="password" name="password" size="35" required>
+    				</label>
+  				</p>
+  				<p>
+					<input type="submit" value="Войти" >
+  				</p>
+  			</form>
+  		</fieldset>
+  	</div><br><br>
+  	
+  	<div>
+		<fieldset style="width:30%">
+			<legend>Зарегистрироваться в FotoStrana:</legend>
+			<form name="Форма регистрации" action="feed.html" method="post">
+  				<p>
+   					<label>Login:<br>
+   					<input type="text" name="login" maxlength="20" size="35" required>
+   					</label>
+   				</p>
+  				<p>
+   					<label>E-mail:<br>
+   					<input type="email" name="email" size="35" required>
+   					</label>
+   				</p>
+   				<p>
+   					<label>Пароль:<br>
+   					<input type="password" name="password" size="35" required>
+   					</label>
+   				</p>
+  				<p>
+    				<label>Подтверждение пароля:<br>
+    				<input type="password" name="password" size="35" required>
+    				</label>
+  				</p>
+  				<p>
+  					<input type="checkbox" name="agreement" value="agree" required>Согласен с порядком обработки персональных данных
+  				</p>
+  				<p>
+					<input type="submit" value="Зарегистрироваться">
+  				</p>
+  			</form>
+  		</fieldset>
+  	</div>
 </body>
+</html>

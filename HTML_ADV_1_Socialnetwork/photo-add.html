@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Задание 1 - Социальная сеть фотографий и видео - Лента</title>
+	<meta charset="UTF-8">
+  <style>
+  .body{
+    background-color:#e6f7ff;
+    font-family:arial;
+  }
+  .name{
+    font-size:60px;
+    color:#006699;
+  }
+  </style>
+</head>
+<body class="body">
+	<header>
+		<img src="images/FS_logo.jpg" alt="FotoStrana_logo" width="80" height="80">
+		<h1 class="name">FotoStrana</h1><hr>
+	</header>
+
+	<div>
+    <h2><a href="feed.html">Посмотреть последние публикации</a></h2>
+  </div><br>
+
+  <div>
+    <fieldset style="width:50%">
+      <legend>Создать новый пост в FotoStrana:</legend>
+        <form name="Форма входа" action="feed.html" method="post">
+  				<p>
+            <label>Текст сообщения<br>
+              <textarea cols="80" rows="5" name="comment" placeholder="Ваше сообщение..."></textarea>
+            </label>
+          </p>
+  				<p>
+   					<label>#hashtag:<br>
+   					  <input type="text" name="hashtag" placeholder="#hashtag">
+   					</label>
+   				</p>
+  				<p>
+    				<label>Выбрать файл:<br>
+    				  <input type="file" name="content" accept="image/jpeg, image/png, video/mp4">
+    				</label>
+  				</p>
+         	<p>
+            <input type="submit" value="Опубликовать">
+  				</p>
+  		</form>
+  	</fieldset>
+  </div>
+</body>
+</html>

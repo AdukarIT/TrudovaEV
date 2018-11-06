@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Задание 1 - Социальная сеть фотографий и видео - Лента</title>
+	<meta charset="UTF-8">
+	<style>
+  .body{
+    background-color:#e6f7ff;
+    font-family:arial;
+  }
+  .name{
+    font-size:60px;
+    color:#006699;
+  }
+  .feedback{
+    background-color:white;
+    width:50%; 
+   }
+  </style>
+</head>
+
+<body class="body">
+	<header>
+		  <img src="images/FS_logo.jpg" alt="FotoStrana_logo" width="80" height="80">
+		<h1 class="name">FotoStrana</h1><hr>
+	</header>
+	
+  <div>
+    <h2>Есть чем поделиться?</h2>
+			<form action=photo-add.html>
+				<button>Сделать новую публикацию</button>
+			</form><br><br>
+	</div>
+	
+	<div>
+		<h2>Последние публикации</h2>
+		<div>
+			<h3><a href="https://vk.com/id36353656" target="_blank">Артур Батура</a></h3>
+				<p> &#9998; Новая песня, услышал в Турции <a href="feed.html">#fikrikarayel</a></p>
+				<p>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/edxLzNVVVEM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+					</iframe>
+				</p>
+				<h4>Комментарии:</h4>
+					<div>
+      					<fieldset class="feedback">
+        					<p>
+        						<a href="https://vk.com/id110130003" target="_blank">Светлана Астровская</a><br>
+        						<i>Мне понравилась, добавила в свой плэйлист &#10004;</i>
+        					</p><hr>
+	        				<p><a href="https://vk.com/id36353656" target="_blank">Артур Батура</a><br>
+        						<i>Я тоже добавил &#9786;</i>
+        					</p><hr><br>
+    	    				<form name="addcomment" action="feed.html" method="post">
+        						<p>
+      								<label>Добавить комментарий<br>
+      									<textarea cols="80" rows="5" name="comment" placeholder="Оставьте Ваш комментарий..."></textarea>
+      								</label>
+      							</p>
+      							<p>
+      								<input type="submit" value="Отправить">
+      							</p>
+      						</form>
+      					</fieldset>
+      				</div><br>
+		</div>
+
+		<div>
+			<h3><a href="https://vk.com/id110130003" target="_blank">Светлана Астровская</a></h3>
+				<p> &#9998; Интересно, надо попробовать)) <a href="feed.html">#adme</a></p>
+				<p>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/iK89CKUyn5I" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+					</iframe>
+				</p>
+				<h4>Комментарии:</h4>
+					<div>
+      					<fieldset class="feedback">
+        					<p>
+        						<a href="https://vk.com/id197052813" target="_blank">Серега</a><br>
+        						<i>Круть</i>  &#9731;
+        					</p><hr><br>
+	        				<form name="addcomment" action="feed.html" method="post">
+        						<p>
+      								<label>Добавить комментарий<br>
+      									<textarea cols="80" rows="5" name="comment" placeholder="Оставьте Ваш комментарий..."></textarea>
+      								</label>
+      							</p>
+      							<p>
+      								<input type="submit" value="Отправить">
+      							</p>
+      						</form>
+      					</fieldset>
+      				</div><br>
+		</div>
+
+		<div>
+			<h3><a href="https://vk.com/id231498860" target="_blank">Ника</a></h3>
+				<p> &#9998; Урааа! Наконец-то у нас сделали такое шоу)) <a href="feed.html">#proektpodium</a></p>
+				<p>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/3CUXzGoCGOc" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+					</iframe>
+				</p>
+				<h4>Комментарии:</h4>
+					<div>
+      					<fieldset class="feedback">
+        					<form name="addcomment" action="feed.html" method="post">
+        						<p>
+      								<label>Добавить комментарий<br>
+      									<textarea cols="80" rows="5" name="comment" placeholder="Оставьте Ваш комментарий..."></textarea>
+      								</label>
+      							</p>
+      							<p>
+      								<input type="submit" value="Отправить">
+      							</p>
+      						</form>
+      					</fieldset>
+      				</div><br>
+		</div>
+
+		<div>
+			<h3><a href="https://vk.com/kastsen" target="_blank">Юра К.</a></h3>
+				<p> &#9998; Кто со мной в кинчик? <a href="feed.html">#reproduction</a></p>
+				<p>
+					<img src="images/Kinoafisha.jpg" alt="Reproduction">
+				</p>
+				<h4>Комментарии:</h4>
+					<div>
+      					<fieldset class="feedback">
+        					<p>
+        						<a href="https://vk.com/id36353656" target="_blank">Артур Батура</a><br>
+        						<i>Юр, погнали в ПТ, после уроков. Или вместо)))</i>
+        					</p><hr><br>
+	        				<form name="addcomment" action="feed.html" method="post">
+        						<p>
+      								<label>Добавить комментарий<br>
+      									<textarea cols="80" rows="5" name="comment" placeholder="Оставьте Ваш комментарий..."></textarea>
+      								</label>
+      							</p>
+      							<p>
+      								<input type="submit" value="Отправить">
+      							</p>
+      						</form>
+      					</fieldset>
+      				</div><br>
+		</div>
+
+	</div>
+</body>
+</html>
