@@ -2,8 +2,53 @@
 <html lang="ru">
 <head>
 	<title>Задание 2 - Сайт руководств по изучению иностранных языков </title>
+	<style>
+  		.body{
+  			background-color:#dcdcdc;
+    		font-family:arial;
+  		}
+  		.name{
+    		font-size:40px;
+  		}
+  		.list{
+  			list-style-type:none;
+  		}
+  		.capture{
+  			font-weight:700;
+  			color:#262626;
+  			margin-left:60px;
+  		}
+  		.langimg{
+  			width:200px;
+  			height:110px;
+  		}
+  	</style>
 </head>
-<body>
-	<img src="Linguamania.jpg" alt="Linguamania_logo" width="80" height="80">
-	<h1>Лингвамания</h1>
+<body class="body">
+	<header>
+		<img src="images/Lingua-World_logo.jpg" alt="Lingua-World_logo" width="500" height="80">
+		<h1 class="name">Мир без границ</h1><hr>
+	</header>
+	<div>
+		<h2>Выберите язык для изучения:</h2>
+			<ul class="list">
+				<li><a href="english.html">
+					<img class="langimg" src="images/english.png" alt="English" title="Английский"></a>
+					<p class="capture">ENGLISH</p>
+				</li>
+  				<li><a href="deutsch.html">
+					<img class="langimg" src="images/deutsch.png" alt="Deutsch" title="Немецкий"></a>
+					<p class="capture">DEUTSCH</p>	
+				</li>
+				<li><a href="polska.html">
+					<img class="langimg"  src="images/polska.png" alt="Polska" title="Польский"></a>
+					<p class="capture">POLSKA</p>	
+				</li>
+				<li><a href="russkij.html">
+					<img class="langimg" src="images/russkij.png" alt="Russkij" title="Русский"></a>
+					<p class="capture">РУССКИЙ</p>	
+				</li>
+			</ul>
+	</div>
 </body>
+</html>
