@@ -30,3 +30,16 @@
 ### ссылка https://github.com/AdukarIT/TrudovaEV/tree/master/HTML_ADV_2_Languages
 
  <h1>&#9786;</h1>
+ 
+ # ДЗ к уроку 7 (тесты)
+ 
+ ## Блочные и строчные элементы
+ ### ссылка https://webref.ru/node/1865/quiz-results/2741/view
+ 
+ ## Фон в CSS
+ ### ссылка https://webref.ru/node/1459/quiz-results/2759/view
+ 
+ ## Свойства позиционирования
+ ### ссылка https://webref.ru/node/1921/quiz-results/2758/view
+ 
+  <h1>&#9786;</h1>
