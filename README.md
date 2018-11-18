@@ -43,3 +43,11 @@
  ### ссылка https://webref.ru/node/1921/quiz-results/2758/view
  
   <h1>&#9786;</h1>
+  
+  # ДЗ к уроку 8 (CSS-blocks)
+  
+  ## Форма заказа в интернет-магазине
+  ### ссылка https://github.com/AdukarIT/TrudovaEV/tree/master/CSS_Order-form
+  
+  <h1>&#9786;</h1>
+  
