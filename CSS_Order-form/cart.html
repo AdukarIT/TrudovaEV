@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>Задание 1 - Форма заказа в Интернет-магазине</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body> 
+	<header>
+		<h1>Магазин техники</h1>
+  	</header>
+
+
+	<ul>
+	    <li class="dropdown">
+	      	<a href="cart.html" class="dropbutton">Бытовая техника</a>
+	        	<div class="dropdown-content">
+	          		<a href="cart.html" class="menu__item">Стиральные машины</a>
+			        <a href="cart.html" class="menu__item">Пылесосы</a>
+			        <a href="cart.html" class="menu__item">Швейные, вышивальные машины</a>
+			        <a href="cart.html" class="menu__item">Утюги</a>
+			        <a href="cart.html" class="menu__item">Электровеники</a>
+			        <a href="cart.html" class="menu__item">Сушилки для обуви</a>
+			    </div>
+	    </li>
+	   
+	    <li class="dropdown">
+	       <a href="cart.html">Техника для кухни</a>
+	        	<div class="dropdown-content">
+		            <a href="cart.html" class="menu__item">Холодильники</a>
+		            <a href="cart.html" class="menu__item">Кухонные плиты</a>
+		            <a href="cart.html" class="menu__item">Морозильники</a>
+		            <a href="cart.html" class="menu__item">Настольные плиты</a>
+		            <a href="cart.html" class="menu__item">Ростеры, мини-печи</a>
+		            <a href="cart.html" class="menu__item">Микроволновые печи</a>
+	        	</div>
+	    </li>
+	    
+	    <li class="dropdown">
+	       	<a href="cart.html">Компьютерная техника</a>
+	        	<div class="dropdown-content">
+		           	<a href="cart.html" class="menu__item">Ноутбуки</a>
+		           	<a href="cart.html" class="menu__item">Планшеты</a>
+		           	<a href="cart.html" class="menu__item">Компьютеры, моноблоки</a>
+		           	<a href="cart.html" class="menu__item">Игровые приставки</a>
+		           	<a href="cart.html" class="menu__item">Серверное оборудование</a>
+	         	</div>
+	    </li>
+	    
+	    <li><a href="cart.html">Корзина</a></li>
+	</ul><br>
+    
+    <div>
+    	<div>
+      		<h2>Оформить онлайн-заказ</h2>
+      			<form class="form" name="online-order" action="cart.html" method="post">
+        			<div>
+          				<label>Фамилия и имя<br>
+          					<input class="form__input" type="text" name="name" placeholder="Фамилия и Имя" autofocus required>
+          				</label>
+        			</div>
+        
+			        <div>
+			          	<label>Номер телефона<br>
+			          		<input class="form__input" type="tel" name="phone" placeholder="Телефон" required>
+			          	</label>
+			        </div>
+			        
+			        <div>
+			        	<label>E-mail<br>
+			          		<input class="form__input" type="email" name="email" placeholder="email@example.by" required>
+			      		</label>
+			        </div>
+        
+			    	<div> 
+			        	<p> Выберите способ доставки:</p>
+			        	
+                		<div>
+                 			<input id="courier" type="radio" name="delivery-type">
+                 			<label for="courier">Курьером по Минску
+			          		</label><br>
+			          	
+			          		<div class="address">
+			          			<label>Адрес доставки:</label><br>
+			          			<input class="form__input" type="text" name="delivery-address" placeholder="Адрес доставки в г. Минске" required>
+                 			</div>
+                		</div>
+                	</div>
+                  
+			        <div>
+                  		<label>
+			        		<input type="radio" name="delivery-type" checked>Самовывоз со склада по адресу:
+			        	</label>
+			        		<input type="checkbox" id="self">
+			        		<label for="self">
+			        				<span style="color: navy; text-decoration: underline" title="Расположение на карте">г. Минск, ул. Гикало, 7а
+			        				</span>
+			        		</label>
+                   		    <p class="location">
+                   				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1175.0227989452458!2d27.592018357666!3d53.91316562985486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfaf14d0c8c9%3A0xaf3967a6974dbb82!2svulica+Hikaly+7%D0%B0%2C+Minsk!5e0!3m2!1sen!2sby!4v1542567075323" width="400" height="400" allowfullscreen></iframe>
+                 			</p>
+			        </div>
+        
+			        <div>
+			          	<label>Комментарий к заказу:<br>
+			          		<textarea class="form__input" cols="60" rows="5" name="order-comment" placeholder="Укажите удобное время доставки, код домофона, др."></textarea>
+			          	</label>
+			        </div>
+			        
+			        <div>
+			          	<input id="agree" class="agreement" type="checkbox" name="agreement" value="agree" required>
+			          	<label for="agree">Я прочитал и согласен с 
+			          		<a href="cart.html"> Условиями доставки</a>
+			          	</label>
+			          	<p>
+			           		<input class="submit-button" type="submit" value="Подтвердить заказ">
+			           	<p>
+			        </div>
+      			</form>
+    	</div>
+    </div><br><hr>
+
+    <div>
+      	<h2>Связаться с нами</h2>
+	       	<p>Время работы:<br>ПН - ВС 09:00 - 21:00<br></p>
+	        <p>Адрес магазина:<br>г. Минск, ул. Гикало, 7а<br></p>      
+	        <p>Телефоны:<br>МТС +375 33 333 33 33<br>VEL  +375 44 4444 44 44</p>
+	        <p>skype: techmagazin</p>
+    </div>    
+    
+</body>
+</html>

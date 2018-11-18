@@ -1,0 +1,145 @@
+	* {
+  		box-sizing: border-box;
+	}
+
+	body {
+  		min-height: 700px;
+		background-color:#e6e6e6;
+		font-family: Arial;
+		color: #1a1a1a;
+		margin: 15px;
+	}
+
+	header {
+		text-align: center;
+		font-size: 20pt;
+		color: #ff8000;
+	}
+
+  	ul {
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    overflow: hidden;
+	    background-color: #595959;
+	    font-size: 14pt;
+	}
+
+	li, li.dropdown {
+    	display: inline-block;
+	}
+
+	li a {
+    	display: inline-block;
+	    color: white;
+	    text-align: center;
+	    padding: 14px 16px;
+	    text-decoration: none;
+	}
+
+	li a:hover, .dropdown:hover {
+    	background-color: #ff8000;
+	}
+
+	.dropdown-content {
+	    display: none;
+	    position: absolute;
+	   	z-index: 1
+	}
+
+	.dropdown-content a {
+	    display: block;
+	    padding: 10px 15px;
+	    color: black;
+	    font-size: 12pt;
+	    text-decoration: none;
+	    text-align: left;
+	    background-color: #f9f9f9;
+	}
+
+	.dropdown-content a:hover {
+		background-color: #ffd9b3
+	}
+
+	.dropdown:hover .dropdown-content {
+    	display: block;
+	}
+
+	h2 {
+		color: #ff8000;
+		font-size: 18pt;
+		font-weight: bolder;
+		padding-bottom: 20px;
+	}
+
+	.form {
+		position: relative;
+	    padding-bottom: 40px;
+	    border: 1px solid black;
+	    width: 40%;
+		min-width: 450px;
+    	padding: 5px 10px 15px 10px;
+		border-radius: 5px;
+		background-color: #bfbfbf;
+		font-size: 12pt;
+	}
+
+	.form__input {
+		width: 400px;
+		margin: 5px 0;
+		padding: 5px;
+		font-family: "Times New Roman";
+		font-style: italic;
+		font-size: 11pt;
+		border: none;
+		border-radius: 3px;		
+	}
+
+	.address {
+		display: none;
+	}
+  
+  	input#courier:checked ~div.address {
+    	display: block;
+  	}
+  
+  	.location {
+		display: none;
+		width: 400px;
+	}
+  
+  	input#self[type="checkbox"] {
+  		display: none;
+  	}
+
+  	input#self:checked ~p.location {
+  		display: block;
+  	}
+
+  	.agreement {
+    	margin-bottom: 40px;
+  	}
+
+  	.submit-button {
+		position: absolute;
+	    bottom: 5px;
+	   	left: 10px;
+		height: 40px;
+		width: 200px;
+		background-color: #ff8000;
+		color: black;
+	    font-size: 12pt;
+	    font-weight: bolder;
+		padding: 5px;
+		border: 1px solid black;
+	    border-radius: 3px;
+		z-index: 1;
+		cursor: pointer;
+		opacity: 0.3;
+		cursor: none;
+	}
+
+	input#agree:checked ~p input.submit-button {
+		opacity: 1;
+		cursor: pointer;
+	}
