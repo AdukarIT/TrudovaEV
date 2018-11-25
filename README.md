@@ -52,18 +52,19 @@
   <h1>&#9786;</h1>
   
   # ДЗ к уроку 9 (CSS-styles)
+  ### общий коммит https://github.com/AdukarIT/TrudovaEV/commit/ad1fcb85e1939d3ab3d7cbd1891f49ca533389ce
 
   ## Задание 1 - Пляж
-  ### ссылка https://github.com/AdukarIT/TrudovaEV/commit/c049fb5b68ff0241b9d196d9030506b809702a53
+  ### ссылка https://github.com/AdukarIT/TrudovaEV/tree/master/CSS_Styles/Beach
   
   ## Задание 2 - Лайк
-  ### ссылка https://github.com/AdukarIT/TrudovaEV/commit/cf13e9a66a9f8fc8a23e67ef1fc929a57a8ef6dc
+  ### ссылка https://github.com/AdukarIT/TrudovaEV/tree/master/CSS_Styles/Like
   
   ## Задание 3 - Чекбокс
-  ### ссылка https://github.com/AdukarIT/TrudovaEV/commit/dd33e8b6b938b4e4f69f491eac8d99313cc3da39
+  ### ссылка https://github.com/AdukarIT/TrudovaEV/tree/master/CSS_Styles/Checkbox
   
   ## Задание 4 - Header магазина
-  ### ссылка https://github.com/AdukarIT/TrudovaEV/commit/9f163b4870eb2d055319f3d4f8cb7047bb20daef
+  ### ссылка https://github.com/AdukarIT/TrudovaEV/tree/master/CSS_Styles/Header
   
     
   <h1>&#9786;  &#9731;</h1>
