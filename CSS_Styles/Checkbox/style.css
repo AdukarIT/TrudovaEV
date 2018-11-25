@@ -1,0 +1,33 @@
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  color: blue;
+}
+
+.checkbox__text {
+  margin: 20px;
+  font-size: 19pt;
+  font-style: italic;
+}
+
+#checkbox {
+  position: relative;
+  opacity: 0;
+}
+
+.checkbox--yes, .checkbox--no {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.checkbox--yes {
+  opacity: 0;
+}
+
+input#checkbox:checked ~span.checkbox--yes {
+  opacity: 1;
+}

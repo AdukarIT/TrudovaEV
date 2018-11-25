@@ -1,0 +1,90 @@
+	* {
+  			box-sizing: border-box;
+		}
+		
+		body {
+			margin: 0;
+			padding: 0;
+	  		min-height: 700px;
+	  		font-family: "Comic Sans MS";
+	  		font-size: 14pt;
+	  		background-color: #e6ffff;
+	  		color:  #008b8b;
+		}
+
+		header {
+			margin: 0;
+			padding: 0;
+			text-align: left;	
+			background-color: white;	
+		}
+
+		.shop-name {
+			margin-bottom: 0;
+			font-size: 36pt;
+			text-align: center;
+		}
+
+		.header-item {
+			display: inline-block;
+			height: 100px;
+			margin: 0 40px 0 0;
+			padding: 30px 0 0 0;
+			overflow: hidden;
+			font-size: 24px;
+		}
+
+		.logo {
+			padding: 0;
+		}
+		
+		a, a:link, a:visited, a:hover, a:active {
+			text-decoration: none;
+			color:  #008b8b;
+		}
+
+		.dropdown-content {
+	    	display: none;
+	    	position: absolute;
+	   		z-index: 1;
+		}
+
+		.dropdown-content a {
+	    	display: block;
+	    	padding: 10px 15px;
+	    	color: black;
+	    	font-size: 12pt;
+	    	text-align: left;
+	    	background-color: #99ffff;
+		}
+
+		.dropdown-content a:hover {
+			background-color: #00cccc;
+		}
+
+		.dropdown:hover .dropdown-content {
+    		display: block;
+		}
+
+		.search-form__input {
+			padding: 5px;
+			background-color: #e6ffff;
+			border-radius: 5px;
+			border-color: #008b8b;
+			width: 300px;
+			min-width: 200px;
+			text-align: right;
+			font-style: italic;
+			font-family: "Comic Sans MS";
+		}
+
+		.search-form__submit-button {
+			height: 30px;
+			width: 80px;
+			text-align: center;
+			background-color: #008b8b;
+			color: white ;
+			border-radius: 5px;
+			border-color: #008b8b;
+			font-family: "Comic Sans MS";
+		}
