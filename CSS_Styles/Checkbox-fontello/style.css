@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('font/fontello.eot?64642152');
+  src: url('font/fontello.eot?64642152#iefix') format('embedded-opentype'),
+       url('font/fontello.woff2?64642152') format('woff2'),
+       url('font/fontello.woff?64642152') format('woff'),
+       url('font/fontello.ttf?64642152') format('truetype'),
+       url('font/fontello.svg?64642152#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.checkbox__icon{
+  font-family: "fontello";
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  font-size: 18pt;
+  color: blue;
+}
+
+.checkbox__text {
+  margin: 20px;
+  font-size: 19pt;
+  font-style: italic;
+}
+
+#checkbox {
+  position: relative;
+  opacity: 0;
+}
+
+.checkbox--yes, .checkbox--no {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.checkbox--yes {
+  opacity: 0;
+}
+
+input#checkbox:checked ~span.checkbox--yes {
+  opacity: 1;
+}

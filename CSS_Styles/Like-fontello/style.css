@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('font/fontello.eot?64642152');
+  src: url('font/fontello.eot?64642152#iefix') format('embedded-opentype'),
+       url('font/fontello.woff2?64642152') format('woff2'),
+       url('font/fontello.woff?64642152') format('woff'),
+       url('font/fontello.ttf?64642152') format('truetype'),
+       url('font/fontello.svg?64642152#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+    a, a:link, a:visited, a:hover, a:active {
+      text-decoration: none;
+      color:  gray;
+    }
+
+    #checkbox {
+      position: relative;
+      opacity: 0;
+      margin-right: 20px;
+    }
+
+    .like__icon {
+		font-family: "fontello";
+		font-size: 18pt;
+		color: gray;
+		font-style: normal;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    label.like:hover input+span i.like__icon {
+      color: rgb(32,80,223);
+    }
+
+
+    .like__text {
+      color: #433d3d;
+      font-size: 18pt;
+    }
+
+    input#checkbox:checked ~span i.like__icon {
+        color: rgb(255,0,0);
+    }
+
+    input#checkbox:checked:hover ~span i.like__icon {
+        color: rgba(255,0,0,0.7);
+    }
