@@ -54,6 +54,11 @@
   # ДЗ к уроку 9 (CSS-styles)
   ### общий коммит https://github.com/AdukarIT/TrudovaEV/commit/ad1fcb85e1939d3ab3d7cbd1891f49ca533389ce
 
+  ### добавила еще коммит по заданиям 2 (Лайк) и 3 (Чекбокс) через fontello,
+  т.к. первоначально сделала через material icons
+  	https://github.com/AdukarIT/TrudovaEV/commit/3349bbf6301a8fca4b10012c8d09667dca77b4f8
+  
+  
   ## Задание 1 - Пляж
   ### ссылка https://github.com/AdukarIT/TrudovaEV/tree/master/CSS_Styles/Beach
   
