@@ -1,0 +1,10 @@
+ .devices {
+         @include h2(25pt);
+     }
+                 
+  .devices-list {
+             font-size: 16pt;
+             font-weight: bolder;
+             color: navy;
+ 
+    }

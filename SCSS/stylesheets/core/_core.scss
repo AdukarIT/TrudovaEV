@@ -1,0 +1,21 @@
+@import "_reset";
+
+@mixin h2($font-size) {
+        color: #ff00bf;
+        font-family: "Times New Roman";
+        font-size: $font-size;
+     }
+
+$business-hours_color: yellow;
+$menu-link_color:  #800060;
+
+body {
+  background-color:thistle;
+  color:#140033;
+  font-family: "calibri";
+  }
+  
+  div, h2 {
+  margin: 20px 0;}
+  
+  

@@ -1,0 +1,12 @@
+.menu {
+     @include h2(30pt);
+     }
+       
+     .menu-list {
+        color:  #800060;
+              
+        a {
+          color: $menu-link_color;
+          font-size: 16pt;
+        }
+      }

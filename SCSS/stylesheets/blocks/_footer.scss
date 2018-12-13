@@ -1,0 +1,18 @@
+footer {
+  
+      #contact-us {
+         @include h2(32pt);
+         text-decoration: underline;
+         color: $menu-link_color;
+     }
+      
+      .contacts__phone-number {
+        font-size: 150%;
+        color:#cc00cc;
+      }
+    
+      .contacts__business-hours {
+        font-weight: 700;
+        color: $business-hours_color;
+      }
+    }

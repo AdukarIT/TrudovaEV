@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: thistle;
+  color: #140033;
+  font-family: "calibri";
+}
+
+div, h2 {
+  margin: 20px 0;
+}
+
+.menu {
+  color: #ff00bf;
+  font-family: "Times New Roman";
+  font-size: 30pt;
+}
+
+.menu-list {
+  color: #800060;
+}
+.menu-list a {
+  color: #800060;
+  font-size: 16pt;
+}
+
+.services {
+  color: #ff00bf;
+  font-family: "Times New Roman";
+  font-size: 27pt;
+}
+
+.services-list {
+  color: #cc0052;
+  font-size: 15pt;
+}
+
+header {
+  margin: 15px;
+  padding: 10px;
+}
+header .logo-image {
+  width: 80px;
+  height: 80px;
+}
+header h1 {
+  font-size: 50pt;
+  color: #8533ff;
+  font-family: "Cambria";
+  text-align: center;
+}
+
+.devices {
+  color: #ff00bf;
+  font-family: "Times New Roman";
+  font-size: 25pt;
+}
+
+.devices-list {
+  font-size: 16pt;
+  font-weight: bolder;
+  color: navy;
+}
+
+footer #contact-us {
+  color: #ff00bf;
+  font-family: "Times New Roman";
+  font-size: 32pt;
+  text-decoration: underline;
+  color: #800060;
+}
+footer .contacts__phone-number {
+  font-size: 150%;
+  color: #cc00cc;
+}
+footer .contacts__business-hours {
+  font-weight: 700;
+  color: yellow;
+}
+
+/*# sourceMappingURL=main.css.map */
