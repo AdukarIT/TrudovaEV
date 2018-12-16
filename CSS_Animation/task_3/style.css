@@ -1,0 +1,15 @@
+	.animation__image {
+		margin: 25px;
+		padding: 0;
+		height: 135px;
+		width: calc(462px / 7);
+		background-image: url("subzero.jpg");
+		background-position: left top;
+		transition-duration: 0.3s;
+		transition-timing-function: steps(6,start);
+	}
+
+	.animation__image:hover {
+		background-position: right top;
+		
+	}

@@ -1,0 +1,27 @@
+	div {
+		padding: 0;
+		margin: 0;
+	}
+
+	.box {
+		height: 100px;
+		width: 500px;
+		border: 3px solid black;
+	}
+
+	.ball-image {
+		height: 100px;
+		width: 100px;
+		position: relative;
+		left: 0;
+		transition-duration: 3.5s;
+		transition-timing-function: cubic-bezier(0,0,0.2,1);
+	}
+
+	#checkbox {
+		display: none;
+	}
+
+	input#checkbox:checked +label .ball-image {
+		left: 402px;
+	}

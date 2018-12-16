@@ -1,0 +1,20 @@
+	.fan__container {
+		height: 250px;
+		width: 250px;
+		position: relative;
+	}
+
+	.fan__image {
+		height: 150px;
+		width: 150px;
+		position: absolute;
+		top: calc((250px - 150px) / 2);
+		left: calc((250px - 150px) / 2);
+		transition-duration: 7s;
+		transition-timing-function: cubic-bezier(0,0,0.2,1);
+	}
+
+	.fan__container:hover .fan__image{
+		transform: rotate(calc(360deg*3));
+		
+	}
