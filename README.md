@@ -74,4 +74,15 @@
     
   <h1>&#9786;  &#9731;</h1>
   
-  
+   # ДЗ к уроку 14 (CSS-animations)
+   
+   ## Задание 1 - Мяч
+   ### ссылка https://github.com/AdukarIT/TrudovaEV/tree/master/CSS_Animation/task_1
+   
+   ## Задание 2 - Вентилятор
+   ### ссылка https://github.com/AdukarIT/TrudovaEV/tree/master/CSS_Animation/task_2
+   
+   ## Задание 3 - Спрайтовая анимация
+   ### ссылка https://github.com/AdukarIT/TrudovaEV/tree/master/CSS_Animation/task_3
+   
+    <h1>&#9786;</h1>
