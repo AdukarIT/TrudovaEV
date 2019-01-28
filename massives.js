@@ -25,3 +25,11 @@ console.log(evenNumbers);
 
 // Task 3
 
+var arr=[];
+for (var i=1; i<=35; i++) {
+arr.push(i);
+}
+arrDeleted = arr.splice(0, 10);
+console.log(arr);
+arrEndPlus = arr.concat(arrDeleted);
+
