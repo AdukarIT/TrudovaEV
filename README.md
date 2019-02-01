@@ -86,3 +86,6 @@
    ### ссылка https://github.com/AdukarIT/TrudovaEV/tree/master/CSS_Animation/task_3
    
    <h1>&#9786;</h1>
+
+   <h1>&#9786;</h1>
+   <h1>&#9786;</h1>
